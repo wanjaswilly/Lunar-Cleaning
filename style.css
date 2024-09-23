@@ -1,0 +1,97 @@
+hr {
+    margin: 0 auto !important;
+    width: 40%;
+}
+
+.display {
+    background-image: url('files/cleaning-5.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-div {
+    background-image: url('files/83c5b99cb1344ae1b625d133cdb2905c.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-text {
+    font-size: 5.5em;
+    font-weight: 800;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+.explain-text {
+    font-size: 2.2em;
+    font-weight: 400;
+}
+
+.mild-text {
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.navbar-brand small {
+    display: block;
+    font-size: 12px;
+}
+
+.navbar-toggle {
+    top: 10px
+}
+
+@media only screen and (max-width: 640px) {
+    .display {
+        background-image: url('files/cleaning-5.jpg') no-repeat center center;
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skills-div {
+        background-image: url('files/83c5b99cb1344ae1b625d133cdb2905c.jpg') no-repeat center center;
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .big-text {
+        font-size: 2.5em;
+        font-weight: 800;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: black;
+    }
+
+    .mild-text {
+        font-size: 1.4em;
+        font-weight: 400;
+    }
+
+    .explain-text {
+        font-size: 1.1em;
+        font-weight: 300;
+    }
+    .navbar-brand {
+      padding-top:20px;
+    }
+    
+    .nav.navbar-nav a {
+      padding-top:30px;
+      padding-bottom:30px;
+    }   
+}
